@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 1450px;
+    height: 950px;
+
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2828;
+    height: 950px;
+    width: 220px;
+    color: white;
+}
+
+.picture {
+    margin: 10px;
+}
+
+.title-style {
+    margin: 10px 0px 10px 30px ;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.list-style {
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-size: 0.8rem
+}
+
+.font-size1 {
+    font-size: 0.8rem;
+}
+
+.margin1 {
+    margin: 5px 0px 5px 40px;
+}
+
+.border {
+    border-bottom: 2px solid #b28704;
+    border-radius: 10px;
+    width: 190px;
+    align-self: flex-end;
+}
+
+.reference {
+    align-items: self-end;
+}
+
+.contact-details {
+    display: flex;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.yellow-box {
+    width: 30px;
+    height: 20px;
+    background-color: #b28704;
+}
+
+.gray {
+   background-color: #3e3c3c;
+   width: 100%;
+}
+
+.ref-pad {
+    padding: 1px 0px 0px 0px;
+}
+
+
+.container2 {
+    width: 600px;
+    height: 950px;
+    border: 1px solid black;
+}
+
+.rectangle {
+    background-color: #d19e05;
+    height: 100px;
+    width: 100%;
+}
+
+.header {
+    height: 130px;
+    background-color: #d19e05;
+    margin-top: 50px;
+}
+
+h1 {
+    margin: 0px 0px 0px 43.98px;
+    padding: 30px 0px 0px 0px;
+}
+
+.header > p {
+    margin: 5px 0px 0px 43.98px;
+}
+
+.border2 {
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 8%;
+}
+
+.margin2 {
+    margin-left: 8%;
+}
+
+.margin3 {
+    margin-left: 4px;
+}
+
+
+h2 {
+    font-size: 1rem;
+}
+
+.header2 {
+    margin-top: 30px;
+    width: 550px;
+}
+
+/* .work-title {
+    font-weight: 600;
+} */
+
+.work-experience{
+    list-style-type: none;
+}
+
+.skills {
+    margin-left: 25px;
+}
+
+.main-content {
+    overflow: hidden;
+
+    
+}
+
